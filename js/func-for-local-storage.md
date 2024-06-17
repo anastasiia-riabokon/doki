@@ -25,7 +25,7 @@ function getDataFromLocalStorage(key) {
 //видалення даних зі сховища
 function removeDataFromLocaleStorage(key) {
   try {
-    localStorage.removeItem(key);
+    localStorage.removeItem(key); 
   } catch (error) {
     console.log(error.message);
   }
